@@ -923,6 +923,12 @@ interface tAnchorArray {
 };
 
 [Prefix="btSoftBody::"]
+interface tClusterArray {
+  [Const] long size();
+  [Const, Ref] Cluster at(long n);
+};
+
+[Prefix="btSoftBody::"]
 interface Config {
   attribute float kVCF;
   attribute float kDP;
