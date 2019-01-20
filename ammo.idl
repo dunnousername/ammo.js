@@ -924,13 +924,13 @@ interface tAnchorArray {
 
 [Prefix="btSoftBody::"]
 interface Cluster {
-  
+  attribute btScalar kVCF;
 };
 
 [Prefix="btSoftBody::"]
 interface tClusterArray {
   [Const] long size();
-  [Ref] Cluster at(long n);
+  Cluster at(long n);
 };
 
 [Prefix="btSoftBody::"]
