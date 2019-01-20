@@ -924,7 +924,7 @@ interface tAnchorArray {
 
 [Prefix="btSoftBody::"]
 interface Cluster {
-  attribute float kVCF;
+  attribute float m_imass;
 };
 
 [Prefix="btSoftBody::"]
