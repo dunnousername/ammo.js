@@ -958,6 +958,7 @@ interface btSoftBody {
   [Value] attribute tNodeArray m_nodes;
   [Value] attribute tMaterialArray m_materials;
   [Value] attribute tAnchorArray m_anchors; 
+  [Value] attribute tClusterArray m_clusters;
 
   [Const] boolean checkLink( long node0, long node1);
   [Const] boolean checkFace( long node0, long node1, long node2);
