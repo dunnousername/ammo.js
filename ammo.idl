@@ -930,7 +930,7 @@ interface Cluster {
 [Prefix="btSoftBody::"]
 interface tClusterArray {
   [Const] long size();
-  Cluster at(long n);
+  [Ref] Cluster at(long n);
 };
 
 [Prefix="btSoftBody::"]
