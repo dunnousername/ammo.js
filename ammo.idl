@@ -921,10 +921,11 @@ interface tAnchorArray {
   void push_back([Ref] Anchor val);
   void pop_back();
 };
+
 [Prefix="btSoftBody::"]
 interface Cluster {
   
-}
+};
 
 [Prefix="btSoftBody::"]
 interface tClusterArray {
